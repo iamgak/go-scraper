@@ -48,7 +48,7 @@ func main() {
 		Client:          client,
 	}
 
-	links := app.dfs(*url)
+	links := app.bfs(*url)
 	if len(links) != 0 {
 		app.writeCSV(links, *fileName)
 		app.InfoLog.Print("Successfully, Saved csv file")

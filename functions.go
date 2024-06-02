@@ -11,7 +11,7 @@ import (
 	"time"
 )
 
-func (app *application) dfs(url string) []string {
+func (app *application) bfs(url string) []string {
 	queue := &ListOfAnchor{
 		List: []string{url},
 	}
