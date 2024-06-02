@@ -1,7 +1,6 @@
 # WebScraper
 
 This is a simple web scraper written in Go that extracts data from uri using queue & golang.org/x/net/html.
-Here, I try to implement 
 
 ## Technologies Used
 - GoLang: Backend development
